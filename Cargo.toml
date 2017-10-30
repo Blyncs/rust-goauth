@@ -14,10 +14,10 @@ name = "goauth"
 path = "src/lib.rs"
 
 [dependencies]
-serde = "0.9"
-serde_derive = "0.9"
-serde_json = "0.9"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
 time = "0.1.35"
 curl = "0.4"
 log = "0.3.6"
-smpl_jwt = "0.2"
+smpl_jwt = { path = "../rust-jwt" }
